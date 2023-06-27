@@ -1,0 +1,153 @@
+/* 
+    Assignment: About A Company
+    Author: Dagan Fitzsimmons
+    Date:   6/18/2023
+    Filename: style.css
+*/
+
+/* 
+    HTML Element
+    - Changes Background Color
+    - Adds Solid Border
+*/
+html
+{
+    background-color: rgb(255, 188, 162);
+    border: 4px solid rgb(219, 153, 127);
+}
+
+/*
+    Table, Th, Td Element
+    - Adds Border
+    - Uses Auto Margin To Center
+    - Adds Padding To th, td
+*/
+    table, th, td
+    {
+        border: 1px black solid;
+    }
+
+    table
+    {
+        margin: auto;
+        background-color: rgb(255, 215, 183);
+    }
+
+    th, td
+    {
+        padding: 10px;
+    }
+
+    th
+    {
+        background-color: rgb(255, 185, 119);
+    }
+
+    td h1
+    {
+        text-align: center;
+    }
+/*
+    Header Tag
+    - Adds Solid Border
+    - Changes Background Color
+    - Changes Bottom Margin
+    - Centers Text
+    - Changes Font Size
+*/
+    header 
+    {
+        /* Visuals*/
+            border: 2px solid rgb(211, 99, 91);
+            background-color: rgb(255, 128, 119);
+            margin-bottom: 8px;
+
+        /* Text Position*/
+            text-align: center;
+        
+        /* Text Visuals*/
+            font-size: medium;
+    }
+/* 
+    Footer Tag
+    - Adds Solid Border
+    - Changes Background Color
+    - Changes Top Margin
+    - Centers Text
+    - Changes Font Size
+*/
+    footer 
+    {
+        /* Visuals*/
+            border: 2px solid rgb(211, 99, 91);
+            background-color: rgb(255, 128, 119);
+            margin-top: 8px;
+
+        /* Text Position*/
+            text-align: center;
+        
+        /* Text Visuals*/
+            font-size: medium;
+    }
+
+/*
+    Navigation Tag
+    - Centers Text
+*/
+    nav 
+    {
+        /* Text Position*/
+            text-align: center;        
+    }
+
+/*
+    Navigation with UL Tag:
+    - Sets List To Use No Markers
+    - Changes Font Size
+    - Centers Text     
+    - Shifts Text Left
+
+*/
+    nav ul 
+    {
+        /* Text Visuals*/
+            list-style-type:none;           
+            font-size: larger;  
+
+        /* Text Position */
+            text-align: center;        
+            position: relative;
+            right:15px;
+    }
+
+/* 
+    Selector Tag:
+    - Removes Default Text Decorations (In This Case, Underlines)
+*/
+    a 
+    {
+        /* Text Visuals*/
+            text-decoration: none;
+            color: white;;
+    }
+
+/* 
+Selector Tag When Selector Has Already Been Used:
+-  Changes Text Color
+*/
+    a:visited 
+    {
+        /* Text Visuals*/
+            color: white;  
+    }
+
+/* 
+Selector Tag When Mouse Hoveres Over:
+- Underlines Text
+*/
+    a:hover 
+    {
+        /* Text Visuals*/
+            text-decoration: underline;
+        
+    }
