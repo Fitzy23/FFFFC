@@ -28,12 +28,123 @@
 
     <!--Article Element-->
         <article>
-
+            Below is a sign up form that allows you to tell us the classes
+            you want to take, when you prefer to take them, and how to best 
+            contact you.
         </article>
 
-    <!--Form Element-->
-        
+    <!--Form Element (Inside Divider Element)-->
+        <div class="container">
+            <form method="get" action="thankyou-1.html">
+                <!--Field Set Element-->
+                    <fieldset>
+                        <!--Legend Element-->
+                            <legend>Sign Up Form</legend>
+                        <!--Collecting First Name-->
+                            <label for="fname">First Name:
+                                <input type="text" name="fname" 
+                                required placeholder="First Name"
+                                id="fname" autofocus/>
+                            </label>
+                        <!--Collecting Last Name-->
+                            <label for="lname">Last Name:
+                                <input type="text" name="lname" 
+                                required placeholder="Last Name"
+                                id="lname"/>
+                            </label>
 
+                        <!--Collecting Email-->
+                            <label>Email Address:
+                                <input type="email" name="email" 
+                                required placeholder="Email Address"/>
+                            </label>
+                        
+                        <!--Collecting Phone Number-->
+                            <label>Phone Number:
+                                <input type="tel" name="phone" 
+                                required placeholder="Phone Number"/>
+                            </label>
+                        
+                        <!--Adding Break-->
+                            <p></p>
+
+                        <!--Best Ways To Reach Selecton-->
+                            <label>Best Way To Contact:
+                                <select name="bestcontact">
+                                    <option value="none">No Preference</option>
+                                    <option value="email">Email</option>
+                                    <option value="phone">Phone</option>
+                                    <option value="owl">Owl</option>
+                                </select>
+                            </label>
+                            
+                        <!--Prefered Time-->
+                            <p>Prefered Class Time</p>
+                            <!--AM Option-->
+                                <input type="radio" name="time"
+                                id="am" value="AM"/>
+                                <label for="am">AM</label>
+                            <!--PM Option-->
+                                <input type="radio" name="time"
+                                id="pm" value="PM"/>
+                            <label for="pm">PM</label>
+
+                        <!--Class Options-->
+                            <p>Class Choices</p>
+                            <label for="crosstraining">Cross Training
+                                <input type="checkbox" id="crosstraining" 
+                                name="crosstraining" value="true">  
+                            </label>
+
+                            <label for="sprint">Sprint
+                                <input type="checkbox" id="sprint" 
+                                name="sprint" value="true">  
+                            </label>
+
+                            <label for="bodypump">BodyPump
+                                <input type="checkbox" id="bodypump" 
+                                name="bodypump" value="true">  
+                            </label>
+
+                            <label for="advancedct">Advanced Cross Training
+                                <input type="checkbox" id="advancedct" 
+                                name="advancedcrosstraining" value="true">  
+                            </label>
+
+                            <label for="mixxedfit">MixxedFIT
+                                <input type="checkbox" id="mixxedfit" 
+                                name="mixxedfit" value="true">  
+                            </label>
+
+                            <label for="spin">Spin
+                                <input type="checkbox" id="spin" 
+                                name="spin" value="true">  
+                            </label>
+
+                            <label for="bodycombat">BodyCombat
+                                <input type="checkbox" id="bodycombat" 
+                                name="bodycombat" value="true">  
+                            </label>
+
+                            <label for="stepinterval">Step Interval
+                                <input type="checkbox" id="stepinterval" 
+                                name="stepinterval" value="true">  
+                            </label>
+
+                            <label for="zumba">Zumba
+                                <input type="checkbox" id="zumba" 
+                                name="zumba" value="true">  
+                            </label>
+                            
+                    </fieldset>
+
+                <!--Submit Button-->
+                    <label>
+                        <input class="submit" type="submit" value="Submit"/>
+                    </label>
+            </form>
+        </div>
+        
     <!--Footer Element-->
         <footer>
             <!--Navigation-->

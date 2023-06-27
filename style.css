@@ -24,7 +24,7 @@ html
 */
     table, th, td
     {
-        border: 1px black solid;
+        border: 1px rgb(207, 172, 143) solid;
     }
 
     table
@@ -60,7 +60,7 @@ html
         /* Visuals*/
             border: 2px solid rgb(211, 99, 91);
             background-color: rgb(255, 128, 119);
-            margin-bottom: 8px;
+            margin-bottom: 15px;
 
         /* Text Position*/
             text-align: center;
@@ -81,7 +81,7 @@ html
         /* Visuals*/
             border: 2px solid rgb(211, 99, 91);
             background-color: rgb(255, 128, 119);
-            margin-top: 8px;
+            margin-top: 15px;
 
         /* Text Position*/
             text-align: center;
@@ -150,4 +150,122 @@ Selector Tag When Mouse Hoveres Over:
         /* Text Visuals*/
             text-decoration: underline;
         
+    }
+
+/*
+    container Element
+    - Changes Background Color
+    - Adds Border
+    - Sets Margins to Auto
+    - Adds Padding
+    - Shortens Width
+*/
+    .container 
+    {
+        background-color: rgb(255, 215, 183);
+        border: 1px rgb(207, 172, 143) solid;
+        margin: auto;
+        padding: 30px;
+        width: 60%;
+    }
+
+/*
+    Label Element
+    - Changes Display To Block
+    - Adds Padding
+    - Sets Positioning To Relative
+*/
+    label
+    {
+        display: block;
+        padding-bottom: 5px;
+        position: relative;
+    }
+
+/*
+    Input Element
+    - Changes Background Color
+    - Adds Border
+    - Changes Positioning To Absolute
+*/
+    input
+    {
+        background-color: rgb(255, 241, 229);
+        border: 1px rgb(207, 172, 143) solid;
+        position: absolute;
+        left: 10%;
+        width: 40%;
+    }
+
+/*
+    Submit Class Element
+    - Resets Width To Initial
+    - Resets Position To Initial
+*/
+    .submit
+    {
+        width: initial;
+        left: 47%;
+        font-size: large;
+        margin-top: 5px;
+    }
+
+/*
+    FieldSet Element
+    - Adds Border
+*/
+    fieldset
+    {
+        border: 2px rgb(207, 172, 143) solid;
+    }
+
+/*
+    Article Element
+    - Changes Background Color
+    - Adds Border
+    - Sets Margins to Auto
+    - Adds Padding
+    - Shortens Width
+    - Changes Font Size
+*/
+    article
+    {
+        background-color: rgb(255, 215, 183);
+        border: 1px rgb(207, 172, 143) solid;
+        margin: auto;
+        margin-bottom: 10px;
+        padding: 30px;
+        width: 60%;
+        font-size: large;
+        text-align: center;
+    }
+
+/*
+    Select Element:
+    - Changes Background color
+    - Adds Border
+*/
+    select
+    {
+        background-color: rgb(255, 241, 229);
+        border: 1px rgb(207, 172, 143) solid;
+    }
+
+/*
+    Image Element:
+    - Makes Image Float
+    - Changes Width
+    - Makes Margin Auto
+    - Adds Padding
+    - Adds Border
+    - Changes Background Color
+*/
+    img
+    {
+        float: inline-end;
+        width: 50%;
+        margin: auto;
+        padding: 15px;
+        border: 1px rgb(207, 172, 143) solid;
+        background-color: rgb(255, 185, 119);
     }
